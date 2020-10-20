@@ -11,7 +11,10 @@ using namespace std;
 int main()
 
 {//sacado de una web de progradores
- 
+	/// <summary>
+	// cregida de datos
+	/// </summary>
+	/// <returns></returns>
 	cout << "! Bienvenida a C++   progrma de triangulos !\n";
 	int a, b, c;
 
@@ -20,7 +23,7 @@ int main()
 
 	cout << "\n ingrese el lado b: ";
 	cin >> b;
-
+	 
 	cout << "\n ingrese el lado c: ";
 	cin >> c;
 	//codigo de decicion
