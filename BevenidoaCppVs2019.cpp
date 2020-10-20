@@ -1,5 +1,7 @@
 // BevenidoaCppVs2019.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
+// la web de donde he escogido el coedigo es 
+//https://program.webcindario.com/codigos/borland/triangulo-equilatero-rectangulo.html
+
 
 #include <iostream>
 
@@ -8,7 +10,8 @@ using namespace std;
 
 int main()
 
-{ 
+{//sacado de una web de progradores
+ 
 	cout << "! Bienvenida a C++   progrma de triangulos !\n";
 	int a, b, c;
 
@@ -20,7 +23,7 @@ int main()
 
 	cout << "\n ingrese el lado c: ";
 	cin >> c;
-
+	//codigo de decicion
 	if (a + b < c || a + c < b || b + c < a)
 	{
 		cout << "\n No forma un triangulo";
@@ -29,14 +32,31 @@ int main()
 	else
 
 	{
-		if (a==b&&a==c&&b==c)
-		{ 
+		if (a == b && a == c && b == c)
+		{
+			cout << "\nFromarn un triangulo equilatero";
+		}
+		else
+		{
+			if (a == b || a == c || b == c)
+			{
+				
+				cout << "\n Froman un triangulo iscoceles";
+
+			}
+			else
+			{
+				if (a* a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a)
+				{
+					cout << "\n Froman un triangulo escleno";
+				}
+			}
+				
+		}
+		{
 
 		}
-	
-
 	}
-
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
