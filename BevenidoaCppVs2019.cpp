@@ -28,7 +28,7 @@ int main()
 	cin >> c;
 	//codigo de decicion
 	if (a + b < c || a + c < b || b + c < a)
-	{
+	{ 
 		cout << "\n No forma un triangulo";
 	}
 
