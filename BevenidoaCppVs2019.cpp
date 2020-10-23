@@ -1,7 +1,7 @@
 // BevenidoaCppVs2019.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
 // la web de donde he escogido el coedigo es 
 //https://program.webcindario.com/codigos/borland/triangulo-equilatero-rectangulo.html
-
+// aunque he hecho algunas cmodificaciones para aprender
 
 #include <iostream>
 #include "BevenidoaCppVs2019.h"
@@ -18,7 +18,7 @@ int main()
 	/// <returns></returns>
 	cout << "! Bienvenida a C++   progrma de triangulos !\n";
 	int a, b, c;
-
+	
 	cout << "\n ingrese el lado a: ";
 	cin >> a;
 
