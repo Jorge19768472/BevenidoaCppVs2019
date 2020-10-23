@@ -4,6 +4,7 @@
 
 
 #include <iostream>
+#include "BevenidoaCppVs2019.h"
 
 // para no tener que utilizar std::
 using namespace std;
@@ -26,9 +27,14 @@ int main()
 	 
 	cout << "\n ingrese el lado c: ";
 	cin >> c;
+	QueTriangulo(a, b, c);
+}
+
+void QueTriangulo(int a, int b, int c)
+{
 	//codigo de decicion
 	if (a + b < c || a + c < b || b + c < a)
-	{ 
+	{
 		cout << "\n No forma un triangulo";
 	}
 
@@ -43,22 +49,20 @@ int main()
 		{
 			if (a == b || a == c || b == c)
 			{
-				
+
 				cout << "\n Froman un triangulo iscoceles";
 
 			}
 			else
 			{
-				if (a* a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a)
+				if (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a)
 				{
 					cout << "\n Froman un triangulo escleno";
 				}
 			}
-				
-		}
-		{
 
 		}
+
 	}
 }
 
